@@ -37,6 +37,21 @@ Using **JITSI** android SDK.
 7. SwipeRefresh Layout
 
 
+# SCREENSHOT
+
+![](Images/img1.jpg)
+
+![](Images/img2.jpg)
+
+![](Images/img3.jpg)
+
+![](Images/img4.jpg)
+
+![](Images/img5.jpg)
+
+![](Images/img6.jpg)
+
+
 # DEPENDENCIES
 
     `// MATERIAL DESIGN
@@ -67,6 +82,3 @@ Using **JITSI** android SDK.
 
     // JITSI MEET
     implementation ('org.jitsi.react:jitsi-meet-sdk:2.8.2') { transitive = true }`
-
-
-# SCREENSHOT
