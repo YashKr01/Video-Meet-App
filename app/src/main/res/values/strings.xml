@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Video Meet</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="video_meet">Video Meet</string>
+    <string name="sign_in_to_your_account">Sign In to your Account</string>
+    <string name="email">Email</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">• • • • • • • •</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="new_user_create_account">New User? Create Account</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="fill_the_details_for_a_new_account">Fill the details for a new Account</string>
+    <string name="first_name">First Name</string>
+    <string name="john_doe">John Doe</string>
+    <string name="last_name">Last Name</string>
+    <string name="john">John</string>
+    <string name="doe">Doe</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_existing_user">Already existing User?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="incoming_meeting_invitation">Incoming Meeting Invitation</string>
+    <string name="sending_meeting_invitation">Sending Meeting Invitation</string>
+</resources>

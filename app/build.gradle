@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.yash.videomeet"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // MATERIAL DESIGN
+    implementation 'com.google.android.material:material:1.2.0'
+
+    // FIREBASE MESSAGING
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+
+    // FIREBASE FIRE STORE
+    implementation 'com.google.firebase:firebase-firestore:21.5.0'
+
+    // SCALABLE SCREEN SIZE UNIT
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    // RECYCLER VIEW
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    // MULTIDEX
+    implementation 'com.android.support:multidex:1.0.3'
+
+    // RETROFIT
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+
+    // SWIPE REFRESH LAYOUT
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    // JITSI MEET
+    implementation ('org.jitsi.react:jitsi-meet-sdk:2.8.2') { transitive = true }
+
+}
+apply plugin: 'com.google.gms.google-services'
