@@ -12,12 +12,6 @@ Using **JITSI** android SDK.
 3. Select Multiple users for conference
 4. Get list of all users
 
-# TOOLS
-
-![Android Studio](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/512px-Android_Studio_icon.svg.png) 
-![Firebase](https://miro.medium.com/max/1024/1*HaAps8GidfAKdee7OrjZ2w.png)
-
-
 # GETTING STARTED
 
 1. Clone the Project
@@ -39,17 +33,11 @@ Using **JITSI** android SDK.
 
 # SCREENSHOT
 
-![](Images/img1.jpg)
+ # Screenshots (DARK)
 
-![](Images/img2.jpg)
-
-![](Images/img3.jpg)
-
-![](Images/img4.jpg)
-
-![](Images/img5.jpg)
-
-![](Images/img6.jpg)
+ | SIGN IN | USERS | SIGN UP | MEET ROOM | INCOMING INVITATION | INVITING | 
+ --------------|------------|-------------|-----------|-----------|-----------|
+ | ![](Images/img1.jpg) | ![](Images/img2.jpg)  | ![](Images/img3.jpg) | ![](Images/img4.jpg) | ![](Images/img5.jpg)  | ![](Images/img6.jpg)
 
 
 # DEPENDENCIES
